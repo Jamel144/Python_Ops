@@ -1,0 +1,12 @@
+This is a list for Git commands
+
+
+git 
+
+git 
+
+git 
+
+git 
+
+git 

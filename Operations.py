@@ -115,3 +115,8 @@ shopping_list = ["bread", "milk", "juice", "eggs"]
 
 
 
+stringg = "hAPCApjihG"
+
+changed = stringg
+
+print(stringg)
