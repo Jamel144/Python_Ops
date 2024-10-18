@@ -1,11 +1,11 @@
 This is a list for Git commands
 
 
-git 
+git switch *branch name*
 
-git 
+git checkout *branch name*
 
-git 
+git branch {list the branhes}
 
 git 
 

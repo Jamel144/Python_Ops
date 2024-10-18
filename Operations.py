@@ -24,6 +24,8 @@ shopping_list = ["bread", "milk", "juice", "eggs"]
 
 # .title() makes each of the words after a space a capitial 
 
+# check if each new word in string is a capital letter is_title = string.istitle()  returns True or False
+
 # .swapcase() swaps around all cases from lower to upper and vice versa
 
 #Spilt words using .split(", ") it will split the word at the comma thats eneter between the qoutes
@@ -39,6 +41,12 @@ shopping_list = ["bread", "milk", "juice", "eggs"]
 # Repeat string repeated_string = string * 3 returns new variable of the string repeated 
 
 # Replace letter in string, string.replace("A", "B") replaces first character with the 2nd case sensitive 
+
+# Check if string starts/ends with a particular word, starts_with = string.startswith("Red")/endswith("red") returns True or False 
+
+# Check if a particular word is within a give string contains = "Red" in string
+
+# Removing front and back white space from string remove_white_space = string.strip()
 
 # change item to float float(item)
 
@@ -77,11 +85,27 @@ shopping_list = ["bread", "milk", "juice", "eggs"]
 
 #Return last item on the list list[-1]
 
+# Check if string has numbers and alphabetical charaters in has_number = string.isalnum()
+
+# Check if string is numeric numeric_string = "1234".isnumeric()
+
+#Check if string has all alphabetic is_alpha = string.alpha()
+
 # Remove first occurance of an item in a list list.remove("this_item") only removes the first one it gets
 
 # Remove a item in a specified index list.pop(2)  removes this item in that index
 
 # Arrnge list alphabetically or numbered using list.sort()
+
+# Remove specific charater from a string removed_i = string.translate(none, "i")
+
+# Remove specific numbers from a string removed_num = string.translate(none, "345")
+
+#Using string as a template 
+
+#   template = "My name is {} and I am  {} years old."
+#   template_string = template.format(name, age)
+
 
 # Handle list errors
 
@@ -109,14 +133,76 @@ shopping_list = ["bread", "milk", "juice", "eggs"]
 #                  }
 
 
+# Getting the index of a substring in a string index_of_ word = string.index("red")
+
+# Counting the number of occurrences of a substring in a string count_of = string.count("i")
+
+
+# For loop to ask user for input 3 times and add them to array.
+# colour = []
+# for i in range(3)
+
+# 	colour = input("enter a colour")
+# 	colours.append(colour)
+
+# Repeating input until a valid response is given
+
+# 	while True:
+# 	password = input("Enter a password: ")
+# 	in len(password) >= 8:
+# 		break
+# 	print("password must be at least 8 characters long.")
+
+# Enter multiple inputs at once 
+# 	name, age = input("Enter your name and age").split()
+
+# Using input call for function 
+# 	def greet(name):
+# 		print("Hello, " + name)
+# 	greet(input("What's your name? "))
+
+
+# Getting an input until a certain condition is met
+# valid_input = False
+# while not valid_inout:
+# if input_value.isalpha():
+# 	valid_input = True
+# else:
+# 	print("This is not a word")
+
+
+# Input to open a file 
+
+# file_name = input("enter a file name: ")
+# with open(file_name, "w") as file:
+# 	file.write(input("Enter text to write file: "))
+
+# Using try block 
+
+# x = 5
+
+# y = 0
+
+#  try: 
+
+# 	result = x/y 
+# 	except ZeroDivisionError:
+# 	print("Y cannot be zero")
 
 
 
 
+stringg = "Sam Harris"
+
+changed = stringg.split(" ")
+
+first = changed[0]
+last = changed[1]
+
+initials = first[0].upper() + "." + last[0].upper()
+
+print(initials)
 
 
-stringg = "hAPCApjihG"
 
-changed = stringg
 
-print(stringg)
