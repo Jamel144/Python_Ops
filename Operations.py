@@ -46,7 +46,7 @@ shopping_list = ["bread", "milk", "juice", "eggs"]
 
 # Check if a particular word is within a give string contains = "Red" in string
 
-# Removing front and back white space from string remove_white_space = string.strip()
+# Removing front and back white space from string remove_white_space = string.strip() use .rstrip and .lstrip for either side.
 
 # change item to float float(item)
 
@@ -92,6 +92,8 @@ shopping_list = ["bread", "milk", "juice", "eggs"]
 #Check if string has all alphabetic is_alpha = string.alpha()
 
 # Remove first occurance of an item in a list list.remove("this_item") only removes the first one it gets
+
+# Combine two list together and remove duplicates list(set(arr1 + arr2)
 
 # Remove a item in a specified index list.pop(2)  removes this item in that index
 
